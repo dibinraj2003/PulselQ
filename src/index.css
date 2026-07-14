@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,300..700;1,300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Now", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --font-display: "Helvetica Now", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --font-mono: "Inter", "Helvetica Now", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+  --color-bg-base: #050505;
+  --color-bg-surface: #0C0C0C;
+  --color-bg-elevated: #111111;
+  --color-grid-line: rgba(255, 255, 255, 0.03);
+  --color-border-default: rgba(255, 255, 255, 0.08);
+  --color-border-subtle: rgba(255, 255, 255, 0.04);
+  --color-text-primary: #F5F5F5;
+  --color-text-secondary: rgba(255, 255, 255, 0.45);
+  --color-text-muted: rgba(255, 255, 255, 0.25);
+  --color-accent-primary: #FFFFFF;
+  --color-accent-data-blue: #A3A3A3;
+  --color-accent-data-warn: #737373;
+  --color-accent-positive: #E5E5E5;
+  --color-accent-negative: #404040;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #050505;
+  color: #F5F5F5;
+  font-family: "Helvetica Now", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbars for Sophisticated Dark aesthetics */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}

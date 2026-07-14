@@ -1,0 +1,6 @@
+{
+  "name": "PulseIQ",
+  "description": "AI-Powered Revenue & Churn Intelligence Dashboard for forward-looking B2B SaaS teams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
