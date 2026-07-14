@@ -5,7 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/PulseIQ/',
+
+    base: '/PulselQ/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
